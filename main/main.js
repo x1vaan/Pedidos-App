@@ -10,6 +10,10 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 1250,
     height: 800,
+    center : true,
+    title: 'Pedidos App',
+    vibrancy : "under-window",
+    visualEffectState: "active",
     webPreferences: {
       preload: path.join(__dirname, "preload.js")
     }
