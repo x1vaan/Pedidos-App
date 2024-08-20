@@ -20,6 +20,12 @@ const config = {
     },
     extend: {
       colors: {
+        customViolet: "#4e3b98",
+        textGray: "#b3b3b3",
+        selectedColor: "#2a2929",
+        greenSpotify: "#65d46e",
+        cardBgColor: "#1f1f1f", 
+        backgroundColor: "#1D2127",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
